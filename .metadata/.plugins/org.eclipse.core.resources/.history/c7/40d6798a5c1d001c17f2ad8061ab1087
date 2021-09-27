@@ -1,0 +1,8 @@
+package com.appsdeveloperblog.app.ws.security;
+
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+public class AuthenticationFiler extends UsernamePasswordAuthenticationFilter{
+	private AuthenticationManager authenticationManager;
+}

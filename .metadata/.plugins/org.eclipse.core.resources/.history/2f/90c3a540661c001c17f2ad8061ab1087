@@ -1,0 +1,15 @@
+package com.appsdeveloperblog.app.ws.io.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Id;
+
+public class UserEntity implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5313493413859894403L;
+	@Id
+	private long id;
+}

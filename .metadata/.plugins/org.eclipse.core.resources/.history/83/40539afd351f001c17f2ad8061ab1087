@@ -1,0 +1,5 @@
+spring.datasource.username=hiepad
+spring.datasource.password=Pdh20051994;
+spring.datasource.url=jdbc:mysql://localhost:3306/testdb
+spring.jpa.hibernate.ddl-auto=update
+server.error.include-message = always
